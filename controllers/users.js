@@ -13,7 +13,7 @@ module.exports.register = (req, res) => {
         from: process.env.AUTH_EMAIL,
         to: email,
         subject: "Verify your email account",
-        html: `<p>Yes we can</p>`,
+        html: `<p>Thank you heroku !</p>`,
       },
       (error, info) => {
         if (error) {
