@@ -1,3 +1,3 @@
 module.exports.getUsersInfos = (req, res) => {
-  res.status(200).json({ message: "users infos +++" });
+  res.status(200).json({ message: "users information ++++" });
 };
